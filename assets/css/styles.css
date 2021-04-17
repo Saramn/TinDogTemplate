@@ -93,6 +93,8 @@ h3 {
 }
 .testimonial-img {
   border-radius: 100%;
+  border: 8px solid #ddd;
+  padding: 2px;
   width: 10%;
   margin: 20px;
 }
@@ -124,17 +126,18 @@ h3 {
   padding: 100px 15% 40px;
 }
 #footer {
-  background-color: #fff;
+  background-color: #ededed;
   text-align: center;
   height: 100px;
   padding: 100px 15% 20%;
 }
+/* ********** Social Media icon on footer *********** */
 .spanSpace {
   padding-left: 25px;
   padding-right: 25px;
 }
 .social {
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 .fa-twitter:hover {
@@ -153,6 +156,8 @@ h3 {
   color: #4285f4;
   background: transparent;
 }
+/* ********** End Social Media icon on footer *********** */
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
